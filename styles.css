@@ -8,7 +8,8 @@
     --black-color: #000000;
     --background-secondary-color: #F5F4FA;
     --background-accent-color: #2F303A;
-    --background-hero-color: #C4C4C4;;
+    --background-hero-color: #C4C4C4;
+    ;
     --contacts-footer-color: rgba(255, 255, 255, 0.6);
     --footer-subscribe-border: rgba(255, 255, 255, 0.3);
     --card-border: #EEEEEE;
@@ -24,7 +25,7 @@
 
     --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 
-   
+
 }
 
 body {

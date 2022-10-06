@@ -1,0 +1,24 @@
+.logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-header {
+    color: var(--black-color);
+}
+
+// FOOTER
+.logo.mrg-logo {
+    padding: 0;
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}

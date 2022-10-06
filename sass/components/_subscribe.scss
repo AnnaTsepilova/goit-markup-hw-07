@@ -1,0 +1,43 @@
+.footer-subscribe {
+    display: block;
+}
+
+.subscribe-form {
+    display: flex;
+
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+
+    padding: 15px 16px;
+    margin-right: 12px;
+
+    border: 1px solid var(--footer-subscribe-border);
+    box-shadow: var(--btn-shadow);
+    border-radius: 4px;
+    background-color: transparent;
+
+    outline: transparent;
+
+    color: var(--primary-white-color);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    transition: border 250ms var(--cubic);
+}
+
+.subscribe-input:focus,
+.subscribe-input:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.subscribe-icon {
+    position: absolute;
+
+    right: 28px;
+    margin-left: 10px;
+}
+

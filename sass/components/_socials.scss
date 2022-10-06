@@ -1,0 +1,77 @@
+// TEAM
+
+.socials-list {
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.social-item {
+    flex-basis: calc((100% - 10px*3)/4);
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    color: var(--icon-social);
+
+    transition: background-color 250ms var(--cubic),
+        color 250ms var(--cubic);
+
+    outline: transparent;
+}
+
+.social-icon {
+    fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+// FOOTER
+
+.footer-social-list {
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.footer-social-item {
+    flex-basis: calc((100% - 10px*3)/4);
+
+}
+
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    color: var(--primary-white-color);
+    background-color: var(--icon-footer-social-bgc);
+
+    transition: background-color 250ms var(--cubic);
+
+    outline: transparent;
+}
+
+.footer-social-icon {
+    fill: currentColor;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color);
+}
