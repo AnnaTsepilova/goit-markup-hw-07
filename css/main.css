@@ -680,15 +680,13 @@ img {
   transition: border-color 250ms var(--cubic), color 250ms var(--cubic);
   outline: transparent;
 }
+.clients__link:hover, .clients__link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 .clients__icon {
   fill: currentColor;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
 }
 
 .footer {
