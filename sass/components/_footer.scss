@@ -1,25 +1,22 @@
-.bg-footer {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-accent-color);
 }
 
-.footer-wraper {
+.footer__wraper {
     display: flex;
     align-items: baseline;
     gap: 93px;
 }
 
-
-
-.contacts-list {
+.footer__address {
     display: block;
     margin-top: 20px;
     min-width: 210px;
 }
 
-.adr-footer,
-.contacts-footer {
+.footer__contacts {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -29,7 +26,7 @@
     transition: color 250ms var(--cubic);
 }
 
-.contacts-footer {
+.footer__contacts--color {
     display: block;
     margin-top: 9px;
 
@@ -38,14 +35,12 @@
     transition: color 250ms var(--cubic);
 }
 
-.contacts-footer:hover,
-.contacts-footer:focus,
-.adr-footer:hover,
-.adr-footer:focus {
+.footer__contacts:hover,
+.footer__contacts:focus {
     color: var(--accent-color);
 }
 
-.footer-title {
+.footer__title {
     display: block;
     margin-top: 0;
     margin-bottom: 20px;

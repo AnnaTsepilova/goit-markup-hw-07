@@ -1,14 +1,14 @@
-.clients-list {
+.clients__list {
     display: flex;
     margin: 0 auto;
     gap: 30px;
 }
 
-.clients-item {
+.clients__item {
     flex-basis: calc((100% - 30px*5)/6);
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,17 +21,18 @@
     color: var(--icon-social);
 
     transition: border-color 250ms var(--cubic),
-        color 250ms var(--cubic);
+        color 250ms var(--cubic)
+    ;
 
     outline: transparent;
 }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }

@@ -1,11 +1,11 @@
-.modal-form {
+.request-form {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 448px;
 }
 
-.modal-title {
+.request-form__title {
     padding: 0;
     margin-top: 0;
     margin-bottom: 12px;
@@ -18,7 +18,7 @@
 
 }
 
-.field-label {
+.request-form__label {
     display: block;
     padding-bottom: 4px;
     margin: 0;
@@ -31,12 +31,12 @@
     color: var(--primary-text-color);
 }
 
-.field {
+.request-form__field {
     position: relative;
     margin-bottom: 10px;
 }
 
-.field-input {
+.request-form__input {
     height: 40px;
     width: 100%;
     padding: 12px 12px 12px 42px;
@@ -55,7 +55,7 @@
     color: var(--textarea-text-color);
 }
 
-.field-icon {
+.request-form__field-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -66,15 +66,15 @@
         fill 250ms var(--cubic);
 }
 
-.field-input:focus {
+.request-form__input:focus {
     border: 1px solid var(--accent-color);
 }
 
-.field-input:focus+.field-icon {
+.request-form__input:focus+.field-icon {
     fill: var(--accent-color);
 }
 
-.modal-form textarea {
+.request-form textarea {
     resize: none;
     margin-bottom: 20px;
     padding: 12px 16px;
@@ -96,18 +96,18 @@
 
 }
 
-.modal-form textarea:focus {
+.request-form textarea:focus {
     border: 1px solid var(--accent-color);
 }
 
-.field-checkbox {
+.request-form__terms {
 
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.checkbox-icon {
+.terms__label-icon {
     position: relative;
     top: 2px;
     flex-shrink: 0;
@@ -119,10 +119,11 @@
         background-image 250ms var(--cubic),
         background-repeat 250ms var(--cubic),
         background-size 250ms var(--cubic),
-        background-origin 250ms var(--cubic);
+        background-origin 250ms var(--cubic)
+    ;
 }
 
-.policy-checkbox:checked+.form-policy .checkbox-icon {
+.terms__input:checked+.terms__label .terms__label-icon {
     border-color: var(--accent-color);
     background-image: url(../images/icon-check.svg);
     background-repeat: no-repeat;
@@ -130,7 +131,7 @@
     background-origin: border-box;
 }
 
-.form-policy {
+.terms__label {
 
     position: relative;
     display: flex;
@@ -146,25 +147,11 @@
     text-align: center;
 }
 
-.policy-link {
+.terms__label-link {
     color: var(--accent-color);
 }
 
-.checkbox-text {
+.terms__label-text {
     margin-left: 8px;
 }
 
-.modal-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
-    min-width: 200px;
-
-    transition: background-color 250ms var(--cubic);
-}
-
-.modal-btn:hover {
-    background-color: var(--accent-color-hover);
-}

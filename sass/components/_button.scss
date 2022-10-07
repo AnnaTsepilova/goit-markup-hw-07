@@ -1,8 +1,8 @@
-.btn-main {
+.button {
     display: inline-block;
 
     padding: 10px 0;
-    min-width: 216px;
+    min-width: 200px;
     min-height: 50px;
     text-align: center;
 
@@ -22,21 +22,76 @@
     outline: transparent;
 }
 
-// FOOTER BTN
-.subscribe-btn {
+.hero-button {
+    min-width: 216px;
+}
+
+// MODAL close
+.modal__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--modal-cls-btn);
+    background-color: var(--primary-white-color);
+    cursor: pointer;
+}
+
+.modal__close-icon {
+    fill: var(--black-color);
+
+    transition: fill 250ms var(--cubic);
+}
+
+.modal__close-icon:hover,
+.modal__close-icon:focus {
+    fill: var(--accent-color);
+}
+
+// MODAL submit
+
+.modal__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    transition: background-color 250ms var(--cubic);
+}
+
+.modal__button:hover {
+    background-color: var(--accent-color-hover);
+}
+
+// FOOTER subscribe BTN
+.subscribe__button {
     position: relative;
     display: flex;
     align-items: center;
 
-    min-width: 200px;
     padding: 10px 32px;
 
     transition: background-color 250ms var(--cubic);
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
+.subscribe__button:hover,
+.subscribe__button:focus {
     background-color: var(--accent-color-hover);
+}
+
+.subscribe__icon {
+    position: absolute;
+
+    right: 28px;
+    margin-left: 10px;
 }
 
 // PORTFOLIO FILTER BTN

@@ -1,6 +1,4 @@
-
-
-.header-stroke {
+.page-header__stroke {
     border-top: 1px solid var(--portfolio-header-stroke);
 }
 
@@ -22,16 +20,16 @@
     margin-left: 93px;
 }
 
-.site-nav .item {
+.site-nav__item {
     position: relative;
 }
 
-.site-nav .item+.item {
+.site-nav__item+.site-nav__item {
     margin-left: 50px;
 }
 
-.site-nav .link,
-.contacts-header {
+.site-nav__link,
+.contacts-nav__link {
     display: block;
 
     padding-top: 32px;
@@ -45,22 +43,20 @@
     letter-spacing: 0.02em;
 
     transition: color 250ms var(--cubic);
-
-    outline: transparent;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contacts-header:hover,
-.contacts-header:focus {
+.site-nav__link:hover,
+.site-nav__link:focus,
+.contacts-nav__link:hover,
+.contacts-nav__link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav__link.current {
     color: var(--accent-color);
 }
 
-.row-accent::after {
+.site-nav__link--accent::after {
     content: "";
     position: absolute;
     display: block;
@@ -81,33 +77,30 @@
     transition: opacity 250ms var(--cubic);
 }
 
-.row-accent.current::after,
-.row-accent:hover::after,
-.row-accent:focus::after {
+.site-nav__link--accent.current::after,
+.site-nav__link--accent:hover::after,
+.site-nav__link--accent:focus::after {
     opacity: 1;
 }
 
-.contacts {
+.contacts-nav {
     display: flex;
     margin-left: auto;
 }
 
-.contacts .contacts-header+.contacts-header {
+.contacts-nav .contacts-nav__link+.contacts-nav__link {
     margin-left: 30px;
     margin-right: 0;
 }
 
-.contacts-header {
+.contacts-nav__link {
     display: flex;
     align-items: center;
 
     color: var(--primary-text-color);
 }
 
-
-
-.icon-mail,
-.icon-phone {
+.contacts-nav__link-icon {
     margin-right: 10px;
     fill: currentColor;
 }

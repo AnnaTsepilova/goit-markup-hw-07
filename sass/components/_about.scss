@@ -1,13 +1,17 @@
 .about {
+    padding-top: 0;
+}
+
+.about__list {
     display: flex;
     justify-content: space-between;
 }
 
-.about .item {
+.about__item {
     position: relative;
 }
 
-.about-overlay {
+.about__overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -21,7 +25,7 @@
     background: var(--about-overlay);
 }
 
-.overlay-text {
+.about__text {
     margin: 0;
     text-transform: uppercase;
     font-size: 14px;

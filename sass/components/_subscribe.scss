@@ -1,13 +1,13 @@
-.footer-subscribe {
+.footer__subscribe {
     display: block;
 }
 
-.subscribe-form {
+.subscribe__form {
     display: flex;
 
 }
 
-.subscribe-input {
+.subscribe__input {
     width: 358px;
     height: 50px;
 
@@ -29,15 +29,10 @@
     transition: border 250ms var(--cubic);
 }
 
-.subscribe-input:focus,
-.subscribe-input:hover {
+.subscribe__input:focus,
+.subscribe__input:hover {
     border: 1px solid var(--accent-color);
 }
 
-.subscribe-icon {
-    position: absolute;
 
-    right: 28px;
-    margin-left: 10px;
-}
 

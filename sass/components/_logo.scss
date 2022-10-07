@@ -10,15 +10,13 @@
     line-height: 1.2;
 }
 
-.logo-header {
+.page-header__logo {
     color: var(--black-color);
 }
 
 // FOOTER
-.logo.mrg-logo {
-    padding: 0;
-}
 
-.logo-footer {
+.page-footer__logo {
     color: var(--primary-white-color);
+    padding: 0;
 }
