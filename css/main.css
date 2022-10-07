@@ -404,7 +404,6 @@ img {
 .site-nav__item {
   position: relative;
 }
-
 .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
@@ -755,9 +754,7 @@ img {
   letter-spacing: 0.03em;
   transition: border 250ms var(--cubic);
 }
-
-.subscribe__input:focus,
-.subscribe__input:hover {
+.subscribe__input:focus, .subscribe__input:hover {
   border: 1px solid var(--accent-color);
 }
 
@@ -1027,14 +1024,18 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.work-list,
 .projects__card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.work-list .title,
+.projects__card-wrapper {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
 .projects__card-title {
   margin-top: 0;
   margin-bottom: 4px;
@@ -1045,7 +1046,6 @@ img {
   color: var(--title-text-color);
 }
 
-.work-list .text,
 .projects__card-text {
   margin: 0;
   font-size: 16px;
@@ -1053,31 +1053,14 @@ img {
   color: var(--primary-text-color);
 }
 
-.work-list .item,
 .projects__card-item {
   flex-basis: calc((100% - 60px) / 3);
   transition: box-shadow 250ms var(--cubic);
 }
-
-.card {
-  transition: box-shadow 250ms var(--cubic);
-}
-
-.border-card,
-.projects__card--border {
-  border: 1px solid var(--card-border);
-  border-top: none;
-  padding: 20px 0 20px 24px;
-}
-
-.work-list .card:hover,
-.work-list .card:focus,
-.projects__card-item:hover,
-.projects__card-item:focus {
+.projects__card-item:hover, .projects__card-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-link,
 .projects__card-link {
   display: flex;
   flex-direction: column;
@@ -1085,14 +1068,12 @@ img {
   outline: transparent;
 }
 
-.portfolio-card-wrapper,
-.projects__card-wrapper {
-  display: flex;
-  position: relative;
-  overflow: hidden;
+.projects__card--border {
+  border: 1px solid var(--card-border);
+  border-top: none;
+  padding: 20px 0 20px 24px;
 }
 
-.portfolio-overlay,
 .projects__overlay {
   position: absolute;
   width: 100%;
@@ -1104,13 +1085,10 @@ img {
   padding: 63px 24px;
   background-color: var(--portfolio-card-hover);
 }
-
-.portfolio-link:hover .portfolio-overlay,
 .projects__card-link:hover .projects__overlay {
   transform: translateY(0);
 }
 
-.portfolio-overlay-text,
 .projects__overlay-text {
   padding: 0;
   margin: 0;

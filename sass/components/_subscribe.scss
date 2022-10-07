@@ -27,12 +27,14 @@
     letter-spacing: 0.03em;
 
     transition: border 250ms var(--cubic);
+
+    &:focus,
+    &:hover {
+        border: 1px solid var(--accent-color);
+    }
 }
 
-.subscribe__input:focus,
-.subscribe__input:hover {
-    border: 1px solid var(--accent-color);
-}
+
 
 
 
