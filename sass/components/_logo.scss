@@ -1,23 +1,23 @@
 .logo {
     padding-top: 24px;
     padding-bottom: 24px;
-
     color: var(--accent-color);
     text-decoration: none;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+}
 
-    .page-header__& {
-        color: var(--black-color);
-    }
+.page-header__logo {
+    color: var(--black-color);
+}
 
-    .page-footer__& {
-        padding: 0;
-        color: var(--primary-white-color);
-    }
+// FOOTER
 
+.page-footer__logo {
+    color: var(--primary-white-color);
+    padding: 0;
 }
 
 

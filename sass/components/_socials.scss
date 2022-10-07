@@ -1,5 +1,3 @@
-// TEAM
-
 .social {
     display: flex;
     margin: 0 auto;
@@ -22,29 +20,29 @@
     color: var(--icon-social);
 
     transition: background-color 250ms var(--cubic),
-        color 250ms var(--cubic);
+    color 250ms var(--cubic);
+
+    &:hover, 
+    &:focus {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+    }
+
+    &--footer {
+        color: var(--primary-white-color);
+        background-color: var(--icon-footer-social-bgc);
+
+        transition: background-color 250ms var(--cubic);
+    }
+
 }
 
 .social__icon {
     fill: currentColor;
+
+    &--footer {
+        fill: var(--primary-white-color);
+    }
 }
 
-.social__link:hover,
-.social__link:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-}
 
-// FOOTER
-
-.footer__social-link {
-
-    color: var(--primary-white-color);
-    background-color: var(--icon-footer-social-bgc);
-
-    transition: background-color 250ms var(--cubic);
-}
-
-.footer__icon {
-    fill: currentColor;
-}
