@@ -422,9 +422,7 @@ img {
   letter-spacing: 0.02em;
   transition: color 250ms var(--cubic);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus,
+.site-nav__link:hover, .site-nav__link:focus,
 .contacts-nav__link:hover,
 .contacts-nav__link:focus {
   color: var(--accent-color);
@@ -471,7 +469,6 @@ img {
   align-items: center;
   color: var(--primary-text-color);
 }
-
 .contacts-nav__link-icon {
   margin-right: 10px;
   fill: currentColor;
