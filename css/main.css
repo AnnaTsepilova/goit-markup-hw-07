@@ -859,7 +859,7 @@ img {
   border: 1px solid var(--accent-color);
 }
 
-.request-form__input:focus + .field-icon {
+.request-form__input:focus + .request-form__field-icon {
   fill: var(--accent-color);
 }
 

@@ -70,7 +70,7 @@
     border: 1px solid var(--accent-color);
 }
 
-.request-form__input:focus+.field-icon {
+.request-form__input:focus+.request-form__field-icon {
     fill: var(--accent-color);
 }
 
@@ -119,8 +119,7 @@
         background-image 250ms var(--cubic),
         background-repeat 250ms var(--cubic),
         background-size 250ms var(--cubic),
-        background-origin 250ms var(--cubic)
-    ;
+        background-origin 250ms var(--cubic);
 }
 
 .terms__input:checked+.terms__label .terms__label-icon {
@@ -154,4 +153,3 @@
 .terms__label-text {
     margin-left: 8px;
 }
-
