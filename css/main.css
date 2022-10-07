@@ -552,16 +552,13 @@ img {
 .about {
   padding-top: 0;
 }
-
 .about__list {
   display: flex;
   justify-content: space-between;
 }
-
 .about__item {
   position: relative;
 }
-
 .about__overlay {
   position: absolute;
   bottom: 0;
@@ -573,7 +570,6 @@ img {
   padding: 27px 0;
   background: var(--about-overlay);
 }
-
 .about__text {
   margin: 0;
   text-transform: uppercase;
