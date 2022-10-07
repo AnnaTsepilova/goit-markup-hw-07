@@ -772,7 +772,6 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   transition: visibility 250ms, opacity 250ms var(--cubic);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -976,9 +975,7 @@ img {
   fill: var(--black-color);
   transition: fill 250ms var(--cubic);
 }
-
-.modal__close-icon:hover,
-.modal__close-icon:focus {
+.modal__close-icon:hover, .modal__close-icon:focus {
   fill: var(--accent-color);
 }
 
@@ -989,7 +986,6 @@ img {
   margin: 0 auto;
   transition: background-color 250ms var(--cubic);
 }
-
 .modal__button:hover {
   background-color: var(--accent-color-hover);
 }
@@ -1001,9 +997,7 @@ img {
   padding: 10px 32px;
   transition: background-color 250ms var(--cubic);
 }
-
-.subscribe__button:hover,
-.subscribe__button:focus {
+.subscribe__button:hover, .subscribe__button:focus {
   background-color: var(--accent-color-hover);
 }
 
@@ -1018,7 +1012,6 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .projects__filter-item + .projects__filter-item {
   margin-left: 8px;
 }
@@ -1036,9 +1029,7 @@ img {
   cursor: pointer;
   transition: background-color 250ms var(--cubic), color 250ms var(--cubic), box-shadow 250ms var(--cubic);
 }
-
-.projects__filter-btn:hover,
-.projects__filter-btn:focus {
+.projects__filter-btn:hover, .projects__filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
