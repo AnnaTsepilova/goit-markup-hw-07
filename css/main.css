@@ -1040,41 +1040,38 @@ img {
   margin-left: 10px;
 }
 
-.btn-list {
+.projects__filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.btn-list .item + .item {
+.projects__filter-item + .projects__filter-item {
   margin-left: 8px;
 }
 
-.btn-filter {
+.projects__filter-btn {
   padding: 6px 25px;
   min-width: 73px;
-  text-align: center;
+  min-height: 38px;
   color: var(--title-text-color);
   background-color: var(--background-secondary-color);
-  border-width: 0;
-  font-family: inherit;
+  box-shadow: none;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms var(--cubic), color 250ms var(--cubic), box-shadow 250ms var(--cubic);
 }
 
-.btn-filter:hover,
-.btn-filter:focus {
+.projects__filter-btn:hover,
+.projects__filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.work-list {
+.projects__card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -1158,7 +1155,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.portfolio-overlay-text {
+.projects__card-text {
   font-size: 16px;
   line-height: 1.88;
 }/*# sourceMappingURL=main.css.map */
